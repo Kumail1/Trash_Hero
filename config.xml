@@ -2,14 +2,26 @@
 <widget id="com.trashmasti.trashhero" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Trash Hero</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+    <b>Trash Masti app- the app for drivers.</b>
+    <p>
+    Make cash in your spare time or full time with the new Driver app which brings you the tools you need, on and off the road.
+    Collecting trash from people and things they don’t need to sit in their home and office. Drive with flexibility, on your own schedule-no office, no boss. Whenever things need to get picked up, we are here to ensure you the Trash Masti experience.
+    Sign up by downloading the Trash Masti Driver app. We will guide you through the process and notify you when you are all to set to go.
+    A successful way to make cash, you can Keep track of how much you make during each trip, right in the app.
+     Work to fit your lifestyle, so you can focus on things that matter. The Driver app lets you view the collection address and give you the estimated time, and the 24-hour forecast of trash collecting activity in your area.
+    </p>
+    <b>The support you need:</b>
+    <p>
+     The new driver app designs in such manner so it eases you into your first collection trip, and is designed to meet your needs on every moment of your journey.
+    Still, need any question? Need assistance? Contact us.
+    </p>
     </description>
     <author email="Kumailmehdi3@gmail.com" href="http://www.trashmasti.com">
         Kumail Mehdi
     </author>
     <content src="index.html" />
-    <preference name="DisallowOverscroll" value="false" />
-    <preference name="android-minSdkVersion" value="26" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="16" />
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1" />
     <plugin name="cordova-plugin-media-capture" source="npm" spec="~1.2.0" />
