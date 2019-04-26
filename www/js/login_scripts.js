@@ -1,6 +1,5 @@
 jQuery(document).ready(function($){
 	// alert("dasd");
-	jQuery(document).ready(function($){
 	if (window.localStorage["n"] != null) {
 					   window.location = "user_data.html";
 					    }
