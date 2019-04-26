@@ -1,5 +1,16 @@
  jQuery(document).ready(function($){
- 	
+ 	if (window.localStorage["n"] != null) {
+					   //window.location = "pickup_request.html";
+					    }
+
+					    else{
+				 		alert("Please login ");
+					    	
+					   window.location = "index.html";
+					    }
+					    if (window.navigator.onLine == false) {
+				 	alert("Please Chek Your Internet Connection.");
+				}
  	var hero = window.localStorage["n"];
 	var email = {"hero" : hero };
               $('#hero').html(hero);
@@ -31,6 +42,9 @@
 
 			}
 				$('form#form').on("submit", function(event){
+					if (window.navigator.onLine == false) {
+				 	alert("Please Chek Your Internet Connection.");
+				}
 				        event.preventDefault();
       					  var oid = $("#oid", this).val();
 

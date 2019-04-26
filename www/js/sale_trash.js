@@ -1,5 +1,17 @@
  jQuery(document).ready(function($){
  	//alert('hello');
+ 	if (window.localStorage["n"] != null) {
+					   //window.location = "pickup_request.html";
+					    }
+
+					    else{
+				 		alert("Please login ");
+					    	
+					   window.location = "index.html";
+					    }
+					    if (window.navigator.onLine == false) {
+				 	alert("Please Chek Your Internet Connection.");
+				}
 var hero = window.localStorage["n"];
               $('#hero').html(hero);
 	$.ajax({

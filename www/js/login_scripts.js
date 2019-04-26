@@ -1,10 +1,16 @@
 jQuery(document).ready(function($){
 	// alert("dasd");
-	
+	jQuery(document).ready(function($){
+	if (window.localStorage["n"] != null) {
+					   window.location = "user_data.html";
+					    }
+
 	$('#loginForm').on('submit', function(event){
 		event.preventDefault();
 		$("#submit",this).attr("disabled","disabled");
-
+if (window.navigator.onLine == false) {
+				 	alert("Please Chek Your Internet Connection.");
+				}
         var n = $("#n", this).val();
         var p = $("#p", this).val();
 

@@ -1,20 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.trashmasti.trashhero"  versionCode ="2" versionName ="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.trashmasti.trashhero"  versionCode ="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Trash Hero</name>
     <description>
     <b>Trash Masti app- the app for drivers.</b>
     <p>
-    Make cash in your spare time or full time with the new Driver app which brings you the tools you need, on and off the road.
-    Collecting trash from people and things they don’t need to sit in their home and office. Drive with flexibility, on your own schedule-no office, no boss. Whenever things need to get picked up, we are here to ensure you the Trash Masti experience.
-    Sign up by downloading the Trash Masti Driver app. We will guide you through the process and notify you when you are all to set to go.
-    A successful way to make cash, you can Keep track of how much you make during each trip, right in the app.
-     Work to fit your lifestyle, so you can focus on things that matter. The Driver app lets you view the collection address and give you the estimated time, and the 24-hour forecast of trash collecting activity in your area.
+    Sign up on the new Trash Masti Driver app to make easy money collecting trash from various locations. Trash Masti gives you the opportunity to become your own boss through flexible working hours. Choose your own schedule and work to fit your unique lifestyle, so you can focus on the things that matter. The app comes with the following features:
+    * Shows you the collection address as well as time of collection.
+    * Notifies you when you are all set to go.
+    * Calculates the amount of cash you’ve earned for each trip.
+    * Provides you with daily updates of trash collecting activity in your area.
+    * Assists you on every step of the journey.
+
+    Download the app now - the Trash Masti experience awaits you! 
+
+    Still have questions? Feel free to contact us.
     </p>
-    <b>The support you need:</b>
-    <p>
-     The new driver app designs in such manner so it eases you into your first collection trip, and is designed to meet your needs on every moment of your journey.
-    Still, need any question? Need assistance? Contact us.
-    </p>
+    
     </description>
     <author email="Kumailmehdi3@gmail.com" href="http://www.trashmasti.com">
         Kumail Mehdi

@@ -105,7 +105,9 @@
 
 <script type="text/javascript">
 $(document).ready(function(){
-
+if (window.navigator.onLine == false) {
+                    alert("Please Chek Your Internet Connection.");
+                }
 
     $('body').on('keyup', ".form-group .item input", function(event){
         //alert("dddd");
@@ -126,6 +128,9 @@ $(document).ready(function(){
     });  
 
     $('body').on("submit", "form#booking", function(event){
+        if (window.navigator.onLine == false) {
+                    alert("Please Chek Your Internet Connection.");
+                }
     event.preventDefault();
     var form_data = $(this).serialize();
     console.log();
